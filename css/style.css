@@ -1,3 +1,17 @@
+body{
+    background-color: #f5f8f9;
+}
+
+header{
+    background-color: white;
+}
+
+.background-central-main{
+    background-color: white;
+    margin:10px 300px 80px;
+    padding: 10px 70px;
+    border-radius: .4em;
+}
 
 #h1-first-intestation{
     display: inline-block;
@@ -10,14 +24,11 @@
     vertical-align: middle;
 }
 
-main{
-    background-color: #f5f8f9;
-}
-
 .background-navigation-bar{
     background-color: white;
-    margin: 50px 300px 5px;
-    padding: 5px 70px;
+    margin: 50px 300px .5px;
+    padding: 15px 70px;
+    border-radius: .4em;
 }
 
 button{
@@ -84,5 +95,21 @@ button{
     padding: .5em;
     font-size: 8pt;
     background-color: #f29e33;
+    border-radius: .7em;
+}
+
+.box-website{
+    color: white;
+    padding: .5em;
+    font-size: 8pt;
+    background-color: #d763a1;
+    border-radius: .7em;
+}
+
+.box-sales{
+    color: white;
+    padding: .5em;
+    font-size: 8pt;
+    background-color: #b1c925;
     border-radius: .7em;
 }
