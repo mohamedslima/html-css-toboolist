@@ -41,6 +41,8 @@ button{
 
 .entity-verify-yes{
     color: rgb(115, 192, 0);
+    border: 2px solid;
+    border-radius: 20px;
 }
 
 .box-editorial{
@@ -48,5 +50,39 @@ button{
     padding: .5em;
     font-size: 8pt;
     background-color: #46acea;
+    border-radius: .7em;
+}
+
+.q1-goals{
+    color: white;
+    padding: .5em;
+    font-size: 8pt;
+    background-color: #9d72e4;
+    border-radius: .7em;
+}
+
+.today-margin{
+    margin-top: 1em;
+}
+
+.entity-verify-no{
+    border: 2px solid;
+    border-radius: 20px;
+    color: red;
+}
+
+.box-recruiting{
+    color: white;
+    padding: .5em;
+    font-size: 8pt;
+    background-color: #64c0a9;
+    border-radius: .7em;
+}
+
+.box-mobile{
+    color: white;
+    padding: .5em;
+    font-size: 8pt;
+    background-color: #f29e33;
     border-radius: .7em;
 }
