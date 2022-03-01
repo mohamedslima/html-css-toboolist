@@ -38,3 +38,15 @@ button{
     border: 1px solid lightgray;
     padding: .6em;
 }
+
+.entity-verify-yes{
+    color: rgb(115, 192, 0);
+}
+
+.box-editorial{
+    color: white;
+    padding: .5em;
+    font-size: 8pt;
+    background-color: #46acea;
+    border-radius: .7em;
+}
