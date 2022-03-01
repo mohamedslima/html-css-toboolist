@@ -10,6 +10,16 @@
     vertical-align: middle;
 }
 
+main{
+    background-color: #f5f8f9;
+}
+
+.background-navigation-bar{
+    background-color: white;
+    margin: 50px 300px 5px;
+    padding: 5px 70px;
+}
+
 button{
     border-radius: 5px;
     margin: none;
