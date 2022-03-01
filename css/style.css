@@ -9,3 +9,22 @@
     margin-left: 10px;
     vertical-align: middle;
 }
+
+button{
+    border-radius: 5px;
+    margin: none;
+}
+
+.button-add-task{
+    background-color: #47aef1;
+    color: white;
+    border: none;
+    padding: .6em;
+}
+
+.button-add-section{
+    background-color: white;
+    color: gray;
+    border: 1px solid lightgray;
+    padding: .6em;
+}
