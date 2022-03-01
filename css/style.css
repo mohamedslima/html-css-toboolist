@@ -1,0 +1,11 @@
+
+#h1-first-intestation{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2em;
+}
+
+.logo-first-intestation{
+    margin-left: 10px;
+    vertical-align: middle;
+}
