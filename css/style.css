@@ -1,3 +1,4 @@
+
 body{
     background-color: #f5f8f9;
 }
@@ -6,36 +7,37 @@ header{
     background-color: white;
 }
 
-.background.central-main{
-    margin:10px 300px 80px;
-    padding: 10px 70px;
-    border-radius: .4em;
+/* header settings */
+
+.intestation{
+    vertical-align: middle;
+    display: inline-block;
 }
 
-#h1-first-intestation{
+.intestation.logo{
     display: inline-block;
-    vertical-align: middle;
     font-size: 2em;
 }
 
-.logo-first-intestation{
-    margin-left: 10px;
-    vertical-align: middle;
-}
+/* /header settings */
 
-.background.navigation-bar{
-    margin: 50px 300px .5px;
-    padding: 15px 70px;
-    border-radius: .4em;
-}
-
-/* background color */
+/* background color and set */
 
 .background{
     background-color: white;
+    padding: 10px 70px;
+    border-radius: .7em;
 }
 
-/* /background color */
+.background.central-main{
+    margin:.5% 20% 40%;
+}
+
+.background.navigation-bar{
+    margin:4% 20% .2%;
+}
+
+/* /background color and set */
 
 /* button */
 
