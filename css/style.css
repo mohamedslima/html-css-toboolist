@@ -6,8 +6,7 @@ header{
     background-color: white;
 }
 
-.background-central-main{
-    background-color: white;
+.background.central-main{
     margin:10px 300px 80px;
     padding: 10px 70px;
     border-radius: .4em;
@@ -24,92 +23,100 @@ header{
     vertical-align: middle;
 }
 
-.background-navigation-bar{
-    background-color: white;
+.background.navigation-bar{
     margin: 50px 300px .5px;
     padding: 15px 70px;
     border-radius: .4em;
 }
 
-button{
+/* background color */
+
+.background{
+    background-color: white;
+}
+
+/* /background color */
+
+/* button */
+
+.button{
+    padding: .6em;
     border-radius: 5px;
     margin: none;
 }
 
-.button-add-task{
+.button.add-task{
     background-color: #47aef1;
     color: white;
     border: none;
-    padding: .6em;
 }
 
-.button-add-section{
+.button.add-section{
     background-color: white;
     color: gray;
     border: 1px solid lightgray;
-    padding: .6em;
 }
 
-.entity-verify-yes{
-    color: rgb(115, 192, 0);
+/* /button */
+
+/* settings box */
+
+.box{
+    color: white;
+    padding: .5em;
+    font-size: 8pt;
+    border-radius: .7em;
+}
+
+.box.editorial{    
+    background-color: #46acea;
+}
+
+.q1-goals{
+    background-color: #9d72e4;
+}
+
+
+.box.recruiting{
+    background-color: #64c0a9;
+}
+
+.box.mobile{
+    background-color: #f29e33;
+}
+
+
+.box.website{
+    background-color: #d763a1;
+}
+
+.box.sales{
+    background-color: #b1c925;
+}
+
+/* /settings box */
+
+/* entity check y/n */
+
+.check{
     border: 2px solid;
     border-radius: 20px;
 }
 
-.box-editorial{
-    color: white;
-    padding: .5em;
-    font-size: 8pt;
-    background-color: #46acea;
-    border-radius: .7em;
+.check.yes{
+    color: rgb(115, 192, 0);
 }
 
-.q1-goals{
-    color: white;
-    padding: .5em;
-    font-size: 8pt;
-    background-color: #9d72e4;
-    border-radius: .7em;
+.check.no{
+    color: red;
 }
+
+/* /entity check y/n */
+
+/* margin span/div */
 
 .today-margin{
     margin-top: 1em;
 }
 
-.entity-verify-no{
-    border: 2px solid;
-    border-radius: 20px;
-    color: red;
-}
-
-.box-recruiting{
-    color: white;
-    padding: .5em;
-    font-size: 8pt;
-    background-color: #64c0a9;
-    border-radius: .7em;
-}
-
-.box-mobile{
-    color: white;
-    padding: .5em;
-    font-size: 8pt;
-    background-color: #f29e33;
-    border-radius: .7em;
-}
-
-.box-website{
-    color: white;
-    padding: .5em;
-    font-size: 8pt;
-    background-color: #d763a1;
-    border-radius: .7em;
-}
-
-.box-sales{
-    color: white;
-    padding: .5em;
-    font-size: 8pt;
-    background-color: #b1c925;
-    border-radius: .7em;
-}
+/* /margin span/div */
